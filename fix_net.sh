@@ -1,8 +1,8 @@
 #!/bin/sh
 
-ip_addr=192.168.100.5
+ip_addr=192.168.1.20
 mask=24
-default_gw=192.168.100.1
+default_gw=192.168.1.1
 
 # 停止DHCP服务
 logger -p syslog.info "停止DHCP服务..."
